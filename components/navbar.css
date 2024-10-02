@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 163, 154);
+    padding: 12px;
+    align-items: center;
+}
+
+.menu{
+    margin-right: 50px;
+}
+
+ul > a{
+    margin: 5px;
+    padding: 6px;
+    color: black;
+    border-radius: 5px;
+}
+
+ul > a:hover{
+    color: white;
+}

@@ -1,30 +1,13 @@
-Ul{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
- list-style-type: nome;
- margin: 0cqmax;
- color: black;
+@import "../components/reset.css";
+@import "../components/navbar.css";
+
+.imagemFundo > img{
+  width: 100vw;
+  height: 100vh;
 }
-.menu{
-  background-color: darksalmon;
-  color: black;
-  padding: 40px;
-  text-decoration: overline;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.botoes:hover{
-  background-color: rgb(221, 9, 9);
-  color: black;
-  
-}
-
-
-
 
 h1{
-  color: rgb(206, 19, 19);
+  color: rgb(0, 0, 0);
 }
  .ul{
   display: flex;
@@ -39,10 +22,6 @@ h1{
   text-align: center;
   display:flex;
   justify-content: center;
-
-
-
-
  }
 
 
@@ -131,4 +110,28 @@ text-align: center;
 .button-30:active {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
+}
+.botoes{
+  color: black;
+ background-color: darksalmon;
+ 
+}
+.botoes-doacao{
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10%;
+  color: black;
+ background-color: darksalmon;
+ 
+}
+body{
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  background-image: url(https://cdn.prod.website-files.com/6144a0dee1cc360ead64bba6/64de76efcf05db875c31e6a7_FULL-6B.jpg);
+}
+.imagem{
+  width: 100px;
+
 }
