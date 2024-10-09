@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carossel</title>
+    <link rel="stylesheet" href="css/carrossel.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    <script src="scripts/carossel.js"></script>
 
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img class="imagem"  src="logo aopa.png" alt="" width="180">
-        </div>
-        <div class="menu">
-            <ul>
-                <a href="home.html">home</a>
-                <a href="sobrenos.html">sobre nos</a>
-                <a href="privacidade.html">politrica e privacidade</a>
-                <a href="contato.html">contato</a>
-            </ul>
-        </div>
-    </header>
-    <div class="imagemFundo">
-        <img src="https://cdn.prod.website-files.com/6144a0dee1cc360ead64bba6/64de76efcf05db875c31e6a7_FULL-6B.jpg" alt=""> 
+    <div class="logo">
+        <img class="imagem"  src="logo aopa.png" alt="" width="180">
     </div>
-
+    <div class="menu">
+        <ul>
+            <a href="home.html">home</a>
+            <a href="sobrenos.html">sobre nos</a>
+            <a href="privacidade.html">politrica e privacidade</a>
+            <a href="contato.html">contato</a>
+        </ul>
+    </div>
+</header> 
+<div class="carousel">
+    <div class="carousel-images">
+      <img src="assets/imagem aopa 6.jpg" alt="Imagem 1">
+      <img src="assets/imagem aopa2.jpg" alt="Imagem 2">
+      <img src="assets/images aopa 4.jpg" alt="Imagem 3">
+      <img src="assets/images aopa 5.jpg" alt="Imagem 1">
+      <img src="assets/images aopa3.jpg" alt="Imagem 2">
+      <img src="assets/iamgem aopa.jpg" alt="Imagem 3">
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+    </body>
+    </html>
 
 
 

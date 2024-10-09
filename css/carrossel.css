@@ -1,56 +1,16 @@
-*{
-box-sizing: border-box;
+.carousel {
+ position: relative;
+  width: auto;
+  overflow: hidden;
 }
 
-body{
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
-    height: 100vh;
+.carousel-images {
+  display: flex;
+  transition: transform 0.8s ease;
 }
 
-.slider{
- margin: 0 auto;
- width: 800px;
- height: 400px;
- overflow: hidden;     
+.carousel-images img {
+  width: 800px;
+  object-fit: cover;
+
 }
-  .slides{
-    width: 400px;
-    height: 400px;
-    display: flex;
-  } 
-  .slides input{
-   display: none;
-  }
-
-  .slide{
-    width:25%;
-    position: relative;
-  }
-
-  .slides img{
-    width: 800px;
-  }
-
-  .manual-navigation{
-    position: absolute ;
-    width:800px ;
-    margin-top: 40px;
-    display:flex;
-    justify-content: center;
-  }
-   
-  .manual-btn{
-    border: 2px solid;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-  } 
-  .manual-bnt:not(:last-child){
-    margin-right: 40px;
-  }

@@ -128,10 +128,13 @@ text-align: center;
 body{
 background-repeat: no-repeat;
 background-position: center;
-background-size: cover;
+background-size: auto;
   background-image: url(https://cdn.prod.website-files.com/6144a0dee1cc360ead64bba6/64de76efcf05db875c31e6a7_FULL-6B.jpg);
 }
 .imagem{
   width: 100px;
 
+}
+.corpo-sobre-nos{
+  background-color: rgb(206, 154, 137);
 }
