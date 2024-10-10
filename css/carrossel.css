@@ -1,16 +1,5 @@
-.carousel {
- position: relative;
-  width: auto;
-  overflow: hidden;
-}
-
-.carousel-images {
-  display: flex;
-  transition: transform 0.8s ease;
-}
-
-.carousel-images img {
-  width: 800px;
-  object-fit: cover;
-
+.carousel-inner img {
+  max-height: 600px; /* ajuste para a altura desejada */
+  width: auto; /* mantém a proporção */
+  margin: 0 auto; /* centraliza a imagem */
 }

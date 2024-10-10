@@ -7,7 +7,7 @@
 }
 
 h1{
-  color: rgb(0, 0, 0);
+  color: rgb(231, 100, 100);
 }
  .ul{
   display: flex;
@@ -112,16 +112,16 @@ text-align: center;
   transform: translateY(2px);
 }
 .botoes{
-  color: black;
+  color: rgb(228, 29, 29);
  background-color: darksalmon;
  
 }
 .botoes-doacao{
   margin: 10px;
   padding: 10px;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px rgb(212, 6, 6);
   border-radius: 10%;
-  color: black;
+  color: rgb(219, 39, 39);
  background-color: darksalmon;
  
 }
@@ -136,5 +136,11 @@ background-size: auto;
 
 }
 .corpo-sobre-nos{
-  background-color: rgb(206, 154, 137);
+  background-color: rgb(255, 255, 255);
+}
+
+.imagem2{
+  margin-left: 250px;
+  width: 50%;
+  height: 500px;
 }
